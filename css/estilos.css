@@ -1,0 +1,260 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    background:#FF8000;
+    height: 53px;
+    top: 0;
+    border-top:3px solid #DF3A01;
+    border-bottom:3px solid #DF3A01; 
+    position: fixed;
+    z-index: 2;
+}
+
+header #logo h2{
+    font-family: Verdana;
+    font-size: 25px;
+    color: white;
+    margin: 10px 0px 0px 10px;
+    
+}
+/*objeto menu movil*/
+#abrir_menu{
+    float: right;
+    margin: -35px 10px 0px 0px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    display: none;
+}
+header #menu nav{
+    height: 45px;
+    display: none;
+}
+#cerrar_menu{
+    font-size: 32px;
+    float: right;
+    padding: 5px;
+    color: white;
+    opacity:.6;
+    cursor: pointer;
+}
+#cerrar_menu:hover{
+    opacity:1;
+}
+header #menu{
+    width: 500px;
+    margin: -26px auto; /*Centro*/
+    transition: left 0.7s;
+    -webkit-transition: left 0.7s;
+    -moz-transition: left 0.7s;
+    -o-transition: left 0.7s;
+    
+}
+header #menu ul a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana;
+    font-size: 18px;
+    padding: 14px;
+    border: 2px solid transparent;
+
+}
+header #menu ul a:hover{
+    background: #FF8000;
+    box-shadow: 2px 2px 2px #DF3A01;
+    border: 2px solid #DF3A01;
+    
+}
+
+/*Cierre de Menu + Logo*/
+#inicio{
+    width:100%; 
+    background:url(../imagen/fondo4.jpg) center no-repeat; 
+    padding: 70px 0px 0px 0px;
+}
+#inicio img{
+    height: 400px;
+    opacity: .8;
+    margin-bottom: 20px;
+    transition: height 0.7s;
+    -webkit-transition: height 0.7s;
+    -moz-transition: height 0.7s;
+    -o-transition: height 0.7s;
+    
+}
+#inicio a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    border: 4px solid #fff;
+    font-size: 17px;
+    font-family: Verdana;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bold;
+    transition:background 0.7s, color 0.7s; 
+    -webkit-transition:background 0.7s, color 0.7s; 
+    -moz-transition:background 0.7s, color 0.7s; 
+    -o-transition:background 0.7s, color 0.7s; 
+}
+#inicio a:hover{
+    background: #fff;
+    color: #DF3A01;
+}
+/*acerca*/
+#acerca{
+    width: 100%;
+    background: #fff;
+}
+#acerca-main{
+    width:880px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+h3{
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#acerca-main h3{
+    color:#DF3A01;
+}
+#acerca-main p{
+    font-family: Verdana;
+    opacity: 0.8;
+    color: #000;
+}
+#servicios{
+    background: #FF8000;
+    width: 100%;
+}
+#servicios-main{
+    width: 890px;
+    margin: auto;
+    padding-bottom:30px;
+}
+#servicios-main h3{
+    color: white;
+}
+#servicios-main ul a{
+    text-decoration: none;
+    color: white;
+    width: 350px;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Verdana;
+    transition:background 0.7s, color 0.7s; 
+    -webkit-transition:background 0.7s, color 0.7s; 
+    -moz-transition:background 0.7s, color 0.7s; 
+    -o-transition:background 0.7s, color 0.7s; 
+}
+#servicios-main ul a span{
+    float: left;
+    font-size: 40px;
+}
+#servicios-main ul a:hover{
+    background: white;
+    color: #FF8000;
+}
+/*contacto*/
+#contacto{
+    width: 100%;
+    background: white;
+}
+#contacto-main{
+    width: 880px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#contacto-main h3{
+    color: #DF3A01;
+}
+#contacto-main form input{
+    border: 4px solid #DF3A01;
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 6px;
+    font-family: Verdana;
+    font-size: 15px;
+}
+#contacto-main form textarea{
+    border: 4px solid #DF3A01;
+    width: 90%;
+    height: 90px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 6px;
+    font-family: Verdana;
+    font-size: 15px;
+}
+#boton{
+    background: #DF3A01;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    border-top:4px solid #DF3A01;
+    border-bottom:4px solid #DF3A01;
+}
+#footer{
+    width: 100%;
+    background: #FF8000;
+    padding: 20px 0px 20px 0px;
+}
+#footer-main{
+    width: 600px;
+}
+#footer-main div{
+    display: inline-block;
+    margin: 10px 20px 0px 20px;
+    padding: 10px;
+}
+#footer-main div h4{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    color: #DF3A01;
+    padding-bottom: 10px;
+}
+#footer-main div ul a{
+    font-family: Verdana;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+#footer-main div ul a:hover{
+    color:#DF3A01;
+}
+#creditos{
+    width: 100%;
+    background: #DF3401;
+}
+#creditos h5{
+    color: white;
+    font-family: verdana;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px;
+}

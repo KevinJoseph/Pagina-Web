@@ -1,0 +1,47 @@
+@media screen and (max-width:900px){
+    header #menu{
+        height: 100%;
+        position: fixed;
+        background: #DF3A01;
+        top:0;
+        left:-100%;
+        width: 300px;
+        margin: 0px auto;
+    }
+    header #menu ul a{
+        display: block;
+    }
+    #abrir_menu{
+        display: block;
+    }
+    header #menu nav{
+        display: block;
+    }
+    #acerca-main{
+     width: 100%
+    }
+    #servicios-main{
+        width: 100%;
+    }
+    #contacto-main{
+        width: 100%;
+    }
+}
+@media screen and (max-width:620px){
+    #footer-main{
+        width: 90%;
+    }
+}
+@media screen and (max-width:450px){
+    header #menu{
+        width: 80%;
+    }
+    #inicio img{
+        height: 200px;
+    }
+    #servicios-main ul a{
+        width: 80%;
+        padding: 8px;
+        font-size: 18px;
+    }
+}
